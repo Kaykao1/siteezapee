@@ -1,0 +1,25 @@
+@media screen and (max-width: 760px) {
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    #comprar{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    a{
+        text-align: center;
+    }
+}

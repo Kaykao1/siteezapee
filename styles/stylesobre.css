@@ -1,0 +1,120 @@
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.video{
+    background-color: #184E15;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh;
+    padding: 20px;
+}
+.processo{
+    font-family: poppinslight;
+    padding: 5px;
+
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1rem;
+    color: #ffffff;
+}
+.quem-somos{
+    margin: 10px;
+    margin-top: -100px;
+    background-color: #077F0F;
+    border: 5px solid #2B9825; /* Define uma borda sólida de 5px de espessura e cor branca */
+    border-radius: 20px; /* Arredonda os cantos da borda */
+}
+.missaoo {
+    display: flex;
+    justify-content: space-between; /* Espaça as seções uniformemente */
+    gap: 20px; /* Espaçamento entre as seções */
+    border: 5px solid #077F0F; /* Define uma borda sólida de 5px de espessura e cor branca */
+    border-radius: 20px; /* Arredonda os cantos da borda */
+    margin-top: 10px;
+}
+
+.missaoo section {
+    width: 30%; /* Ajuste a largura conforme necessário */
+}
+.imagem-container {
+    background-color: #184E15;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px;
+    border: 5px solid #2B9825; /* Define uma borda sólida de 5px de espessura e cor branca */
+    border-radius: 20px; /* Arredonda os cantos da borda */
+}
+.video{
+  
+    border-radius: 20px; /* Arredonda os cantos da borda */
+}
+.imagem-item {
+    text-align: center;
+    width: 150px;
+}
+.processo{
+    background-color: #077F0F;
+    color: white;
+}
+.imagem-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imagem-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+footer.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: #184E15;
+}
+
+footer.rodape p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+footer.rodape a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer.rodape a:hover {
+    text-decoration: underline;
+}

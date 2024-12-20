@@ -1,0 +1,123 @@
+body {
+    background-color: #004304;
+    color: white;
+    font-family: poppinsregular;
+    margin: 0; /* Remove margem */
+    padding: 0; /* Remove padding */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; /* Padding do body aplicado aqui */
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 30px; /* Padding do body aplicado aqui */
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: rgb(187, 249, 187);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+article {
+    margin-left: 190px;
+    margin-top: -60px;
+    padding: 30px; /* Padding do body aplicado aqui */
+}
+
+img {
+    width: 440px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #86C98A;
+    transition: 0.35s all;
+}
+
+.produtos {
+    border: 2px solid #2B9825;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #2B9825;
+    color: white;
+    width: 100%;
+}
+
+.produtos:hover {
+    background-color: white;
+    color: black;
+}
+
+#comprar {
+    border: 2px solid #2B9825;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #2B9825;
+    color: white;
+    width: auto; /* Ajusta a largura ao conteúdo do botão */
+    margin: 10px auto; /* Centraliza horizontalmente */
+    display: block; /* Necessário para `margin: auto` funcionar em um `a` */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    text-decoration: none;
+}
+
+#comprar:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#comprar:hover {
+    background-color: white;
+    color: black;
+}
+
+.rodape {
+    background-color: #184E15;
+    width: 100%; /* Preenche toda a largura */
+    padding: 30px; /* Mantém o espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding na largura */
+    display: flex; /* Habilita Flexbox */
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    color: white; /* Garante a cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
